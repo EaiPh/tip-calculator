@@ -1,0 +1,108 @@
+body {
+   background-color: cyan;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 60px;
+}
+
+main {
+   width: 80%;
+   height: 500px;
+   margin: auto;
+   margin-top: 60px;
+   background-color: white;
+   border-radius: 20px 20px 20px 20px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.sectionControl {
+   width: 50%;
+   margin: 40px 30px;
+}
+
+#billtopay {
+   margin-bottom: 15px;
+}
+
+#billtopay, #howManyPeople {
+   border: none;
+   outline: none;
+   background-color: #ececec;
+   height: 40px;
+   width: 340px;
+   border-radius: 2px 2px 2px 2px;
+}
+
+.porcentagens {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+}
+
+.porcentagens div {
+   width: 100px;
+   height: 50px;
+   margin: 10px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1a5947;
+   border-radius: 4px 4px 4px 4px;
+}
+
+#custombutton {
+   width: 100px;
+   height: 50px;
+   margin: 10px;
+   text-align: center;
+   border-radius: 4px 4px 4px 4px;
+   color: #139a8a;
+   background-color: #ececec;
+   border: none;
+   outline: none;
+   overflow: hidden;
+}
+
+#okbutton {
+   height: 50px;
+   
+}
+.resultadoFinal {
+   width: 50%;
+   background-color: #1a5947;
+   margin: 40px 30px;
+   border-radius: 20px 20px 20px 20px;
+}
+
+.resultadoFinal div {
+   color: white;
+   line-height: 7px;
+   display: inline-block;
+   margin-left: 30px;
+   margin-top: 50px; 
+}
+
+.resultadoFinal span {
+   font: 30pt sans-serif;
+   margin-left: 30%;
+   color: #139a8a;
+}
+
+#total {
+   margin-left: 42%;
+}
+
+#reset {
+   width: 85%;
+   height: 30px;
+   color: #139a8a;
+   margin-top: 130px;
+   margin-left: 30px;
+   background-color: #37725f;
+   border-radius: 3px 3px 3px 3px;
+   border: none;
+}

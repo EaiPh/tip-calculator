@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+      <script src="script.js" defer></script>
+      
+      <title>Calculador de gorjetas</title>
+      
+   </head>
+   <body>
+      <h1>SPLI</br>TTER</h1>
+      <main>
+         <section class="sectionControl">
+            <p>Conta</p>
+            <input type="number" name="billtopay" id="billtopay" /> 
+           <!-- <ion-icon name="logo-usd"></ion-icon> -->
+            <p>Selecione a gorjeta %</p>
+            <div class="porcentagens">
+               <div id="p5">5%</div>
+               <div id="p10">10%</div>
+               <div id="p15">15%</div>
+               <div id="p25">25%</div>
+               <div id="p50">50%</div>
+               <input type="number" id="custombutton" placeholder="Personalizar"/>
+            </div>
+         
+            <p>Number of People</p>
+            <input type="number" name="howManyPeople" id="howManyPeople" />
+           <!-- <ion-icon name="person"></ion-icon> -->
+         </section>
+         
+         <section class="resultadoFinal">
+            <div>
+               <p>valor da gorjeta</p>
+               <p>/ pessoa</p>
+            </div>
+            <span id="tipValue">$ 0.00</span>
+            </br>
+            <div>
+               <p>total</p>
+               <p>/ pessoa</p>
+            </div>
+            <span id="total">$ 0.00</span>
+            
+               <input type="button" name="reset" id="reset" value="RESETAR"/>
+            
+         </section>
+      </main>
+      
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   </body>
+</html>
